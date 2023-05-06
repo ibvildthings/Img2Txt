@@ -16,6 +16,7 @@ def process_images_in_folder(folder_path, output_file):
                 outfile.write(f"Text extracted from {file}:\n")
                 outfile.write(text)
                 outfile.write("\n\n")
+                print(f"-----")
                 print(f"Text extracted from {file}:")
                 print(text)
                 print("\n")
